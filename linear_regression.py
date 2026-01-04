@@ -19,8 +19,8 @@ y = 3 * X + 2 + np.random.randn(100, 1) * 0.1   # true relationship + noise
 w = np.random.randn(1)
 b = 0.0
 
-learning_rate = 0.001    # stable learning rate
-steps = 5000             # more iterations, smaller updates
+learning_rate = 0.0001    # stable learning rate
+steps = 8000             # more iterations, smaller updates
 
 # -----------------------------
 # 3) Training loop
@@ -48,5 +48,5 @@ for step in range(steps):
 # 4) Final learned parameters
 # -----------------------------
 print("\nLearned parameters:")
-print("w =", float(w))
+print("w =", w.item())
 print("b =", float(b))
