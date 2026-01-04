@@ -1,3 +1,5 @@
+A minimal linear regression implementation from scratch using NumPy to learn gradient descent concepts.
+
 # Linear Regression From Scratch (Gradient Descent)
 
 This project implements **linear regression from scratch using NumPy** — without using
